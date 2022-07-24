@@ -1,0 +1,30 @@
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+}
+.col h4{
+    margin-bottom: 10px;
+}
+.col a{
+    color:#465b52; 
+    text-decoration: none;
+}
+.row img{
+    border: 1px solid #088178;
+    border-radius: 4px;
+}
+.col img{
+    width: 150px;
+    margin-bottom: 10px;
+}
+.copyright{
+    width: 100%;
+    text-align: center;
+    align-self: center;
+}
